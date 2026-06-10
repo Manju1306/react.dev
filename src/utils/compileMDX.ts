@@ -40,7 +40,7 @@ export default async function compileMDX(
       mdxComponentNames,
       DISK_CACHE_BREAKER,
       PREPARE_MDX_CACHE_BREAKER,
-      lockfile: fs.readFileSync(process.cwd() + '/yarn.lock', 'utf8'),
+      lockfile: fs.readFileSync(process.cwd() + '/pnpm-lock.yaml', 'utf8'),
     })
   );
   const cached = await store.get(hash);

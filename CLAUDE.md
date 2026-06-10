@@ -9,11 +9,11 @@ This is the React documentation website (react.dev), built with Next.js 15.1.11 
 ## Development Commands
 
 ```bash
-yarn build         # Production build
-yarn lint          # Run ESLint
-yarn lint:fix      # Auto-fix lint issues
-yarn tsc           # TypeScript type checking
-yarn check-all     # Run prettier, lint:fix, tsc, and rss together
+pnpm build         # Production build
+pnpm lint          # Run ESLint
+pnpm lint:fix      # Auto-fix lint issues
+pnpm tsc           # TypeScript type checking
+pnpm check-all     # Run prettier, lint:fix, tsc, and rss together
 ```
 
 ## Project Structure

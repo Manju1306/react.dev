@@ -4,7 +4,7 @@
 
 // IMPORTANT
 // If this file changes, run:
-//   yarn prebuild:rsc
+//   pnpm prebuild:rsc
 
 var React = require('react');
 var ReactJSXRuntime = require('react/jsx-runtime');

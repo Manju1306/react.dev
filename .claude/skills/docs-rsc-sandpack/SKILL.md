@@ -273,5 +273,5 @@ The strings are necessary to provide to Sandpack as local files (skips Sandpack 
 
 ```bash
 node scripts/buildRscWorker.mjs   # Rebuild worker bundle after source changes
-yarn dev                           # Start dev server to test examples
+pnpm dev                           # Start dev server to test examples
 ```

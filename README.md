@@ -8,18 +8,18 @@ This repo contains the source code and documentation powering [react.dev](https:
 
 1. Git
 1. Node: any version starting with v16.8.0 or greater
-1. Yarn: See [Yarn website for installation instructions](https://yarnpkg.com/lang/en/docs/install/)
+1. pnpm: See [pnpm website for installation instructions](https://pnpm.io/installation)
 1. A fork of the repo (for any contributions)
 1. A clone of the [react.dev repo](https://github.com/reactjs/react.dev) on your local machine
 
 ### Installation
 
 1. `cd react.dev` to go into the project root
-3. `yarn` to install the website's npm dependencies
+3. `pnpm install` to install the website's npm dependencies
 
 ### Running locally
 
-1. `yarn dev` to start the development server (powered by [Next.js](https://nextjs.org/))
+1. `pnpm dev` to start the development server (powered by [Next.js](https://nextjs.org/))
 1. `open http://localhost:3000` to open the site in your favorite browser
 
 ## Contributing
@@ -45,7 +45,7 @@ The documentation is divided into several sections with a different tone and pur
 ### Test the change
 
 1. If possible, test any visual changes in all latest versions of common browsers, on both desktop and mobile.
-2. Run `yarn check-all`. (This will run Prettier, ESLint and validate types.)
+2. Run `pnpm check-all`. (This will run Prettier, ESLint and validate types.)
 
 ### Push it
 
